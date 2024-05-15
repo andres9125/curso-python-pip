@@ -13,7 +13,7 @@ Este proyecto es un curso introductorio sobre el manejo de PIP (Python Package I
 2. Accede al directorio del proyecto:
 
     ```bash
-    cd nombre_proyecto
+    cd curso-python-pip
     ```
 
 3. Crea y activa un entorno virtual (se recomienda, pero opcional):
