@@ -7,7 +7,7 @@ Este proyecto es un curso introductorio sobre el manejo de PIP (Python Package I
 1. Clona este repositorio en tu máquina local:
 
     ```bash
-    git clone https://github.com/tu_usuario/nombre_proyecto.git
+    git clone https://github.com/andres9125/curso-python-pip.git
     ```
 
 2. Accede al directorio del proyecto:
