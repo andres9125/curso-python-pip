@@ -29,9 +29,17 @@ Este proyecto es un curso introductorio sobre el manejo de PIP (Python Package I
     pip install -r requirements.txt
     ```
 
+5. Una vez ambientado el proyecto, ejecutar los siguientes comandos:
+
+    ```sh
+    cd game
+    pythonn3 main.py
+    ```
+
 ## Uso
 
-Describe cómo utilizar tu proyecto aquí.
+Para ejecutar el juego debes seguir las instrucciones anteriores en la terminal
+
 
 ## Contribución
 
