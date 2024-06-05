@@ -2,8 +2,7 @@
 import utils
 import read_csv
 import charts
-
-# Esta es una Prueba de Actualización
+import pandas as pd
 
 '''
 data = [{
@@ -30,6 +29,7 @@ def run():
 
 def run():
 
+  '''
   # Ejecuta la función read para leet el Archivo CSV pasandole la Ruta.
   data = read_csv.read_csv('./data.csv')
 
@@ -48,6 +48,21 @@ def run():
 
     # Ejecuta función generación grafico Pie
     charts.generate_pie_chart(name, labels, values)
+  '''
+  country = input('Type Continent => ')
+  name = country
+
+  df = pd.read_csv('./data.csv')
+  df = df[df['Continent'] == name]
+
+  countries = df['Country/Territory'].values
+  percentages = df['World Population Percentage'].values
+
+  charts.generate_pie_chart(name, countries, percentages)
+  charts.generate_bar_chart(name, countries, percentages)
+
+
+    
 
 '''
 def run_2():
