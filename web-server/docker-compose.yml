@@ -1,0 +1,14 @@
+# Como se va a iniciar y desde donde el contenedor
+
+# Nombre al Servicio
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #Enlazar Sistema de Archivos con Contenedor
+    volumes:
+     - .:/app
+    #Enlazar Puertos
+    ports:    
+     - '89:89'
