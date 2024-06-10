@@ -1,0 +1,11 @@
+# Como se va a iniciar y desde donde el contenedor
+
+# Nombre al Servicio
+services:
+  app-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #Enlazar Sistema de Archivos con Contenedor
+    volumes:
+     - .:/app

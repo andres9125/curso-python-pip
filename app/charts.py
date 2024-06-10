@@ -21,7 +21,7 @@ def generate_pie_chart(name, labels, values):
     EXIMUS|AMS|20240528|Comentarea Show
     plt.show() 
   '''
-  plt.savefig(f'./imgs/{name}_pie.png')
+  plt.savefig(f'./imgs/{name}_pies.png')
   plt.close()
 
 if __name__ == '__main__':
